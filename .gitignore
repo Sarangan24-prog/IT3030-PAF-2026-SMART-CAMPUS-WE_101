@@ -1,0 +1,73 @@
+# =====================
+# Spring Boot / Java
+# =====================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+*.log
+*.pid
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Spring Boot specific
+application-local.properties
+application-local.yml
+application-secret.properties
+application-secret.yml
+
+# =====================
+# React / Node
+# =====================
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# =====================
+# IDEs & Editors
+# =====================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =====================
+# MongoDB
+# =====================
+*.db
+dump/
+mongodump/
+
+# =====================
+# Misc
+# =====================
+*.bak
+*.tmp
+*.orig
